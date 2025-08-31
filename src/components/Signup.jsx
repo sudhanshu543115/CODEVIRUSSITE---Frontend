@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { EyeIcon, EyeSlashIcon } from '@heroicons/react/24/outline';
+import { motion } from 'framer-motion';
 
 const Signup = ({ onClose, onSwitchToLogin }) => {
   const { register, loading } = useAuth();

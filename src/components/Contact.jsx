@@ -64,19 +64,19 @@ const Contact = () => {
     {
       icon: HiLocationMarker,
       title: 'Our Location',
-      details: '3016 sunrise road las australia',
+      details: 'A76, Chandganj Garden Road, Kapoorthla, Aliganj, Sector A, Chandralok, Lucknow, Uttar Pradesh 226024',
       color: 'from-blue-500 to-blue-600'
     },
     {
       icon: HiMail,
       title: 'Email Us',
-      details: 'hello@cODEVIRUS.com',
+      details: 'info@codevirussec.in',
       color: 'from-green-500 to-green-600'
     },
     {
       icon: HiPhone,
       title: 'Call Us',
-      details: '+123-456-7890',
+      details: '+91 9026764985',
       color: 'from-purple-500 to-purple-600'
     },
     {

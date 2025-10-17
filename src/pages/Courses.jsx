@@ -199,7 +199,9 @@ const Courses = () => {
 
   const handleCourseClick = async (category) => {
     if (!isAuthenticated) {
-      alert("Please login to access course details and content.");
+      //alert("Please login to access course details and content.");
+      alert("Are you sure for the enquire click ok .");
+      
       return;
     }
 

@@ -67,6 +67,7 @@ const Navbar = () => {
           </div>
 
           {/* Auth Buttons */}
+           {/*
           <div className="hidden md:flex items-center space-x-4">
             {isAuthenticated ? (
               <div className="flex items-center space-x-4">
@@ -157,6 +158,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
+      */}
 
       {/* Auth Modals */}
       {showLogin && (

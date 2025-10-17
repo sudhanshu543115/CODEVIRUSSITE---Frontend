@@ -118,19 +118,20 @@ const AboutPage = () => {
             >
               <div>
                 <h2 className="text-3xl font-bold text-white mb-6               ">
-                  Leading Cybersecurity Excellence
+                 Secure Today, Lead Tomorrow
                 </h2>
                 <p className="text-lg text-white mb-6 leading-relaxed">
-                  Codevirus Security is a company established in 2018 , works in a collaborative form of
-                  company and leading Cyber Security Training Institute, situated in the heart of Uttar Pradesh – Lucknow. We offer modern day solutions for current cyber security needs and protection
-                  from emerging digital threats, as the world is encountering various cybercrimes with
-                  advancement of day to day technologies.
+                 
+At Codevirus, we are dedicated to building innovative web solutions and delivering top-notch cybersecurity training that empowers individuals and organizations to stay secure in the digital era. Our mission is to prepare the next generation of cybersecurity professionals and help businesses strengthen their defenses against evolving threats.
                 </p>
                 <p className="text-lg text-white leading-relaxed">
-                  As a training institute, we provide an engaging learning environment with impeccable
-                  infrastructure and tools, through which students can learn with enthusiasm from our experts,
-                  so that they can add feathers to their wings for soaring high in their career with industry
-                  ready skills.
+                 We believe in a practical, skill-based approach to learning and digital protection:
+
+Hands-On Labs: Gain real-world experience through interactive labs designed to simulate actual cybersecurity challenges.
+
+Certified Trainers: Learn directly from seasoned industry experts who bring years of professional insight to every session.
+
+Job-Ready Skills: Develop the technical and analytical skills required to defend businesses, prevent breaches, and succeed in today’s high-demand cybersecurity landscape.
                 </p>
               </div>
             </motion.div>

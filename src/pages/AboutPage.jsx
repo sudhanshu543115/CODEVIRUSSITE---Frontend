@@ -121,17 +121,13 @@ const AboutPage = () => {
                  Secure Today, Lead Tomorrow
                 </h2>
                 <p className="text-lg text-white mb-6 leading-relaxed">
-                 
-At Codevirus, we are dedicated to building innovative web solutions and delivering top-notch cybersecurity training that empowers individuals and organizations to stay secure in the digital era. Our mission is to prepare the next generation of cybersecurity professionals and help businesses strengthen their defenses against evolving threats.
+                 At Codevirus, we are dedicated to building innovative web solutions and delivering top-notch cybersecurity training that empowers individuals and organizations to stay secure in the digital era. Our mission is to prepare the next generation of cybersecurity professionals and help businesses strengthen their defenses against evolving threats.
                 </p>
                 <p className="text-lg text-white leading-relaxed">
-                 We believe in a practical, skill-based approach to learning and digital protection:
-
-Hands-On Labs: Gain real-world experience through interactive labs designed to simulate actual cybersecurity challenges.
-
-Certified Trainers: Learn directly from seasoned industry experts who bring years of professional insight to every session.
-
-Job-Ready Skills: Develop the technical and analytical skills required to defend businesses, prevent breaches, and succeed in today’s high-demand cybersecurity landscape.
+                 We believe in a practical, skill-based approach to learning and digital protection:   <br/>
+                  Hands-On Labs: Gain real-world experience through interactive labs designed to simulate actual cybersecurity challenges.<br/>
+                  Certified Trainers: Learn directly from seasoned industry experts who bring years of professional insight to every session.<br/>
+                  Job-Ready Skills: Develop the technical and analytical skills required to defend businesses, prevent breaches, and succeed in today’s high-demand cybersecurity landscape.
                 </p>
               </div>
             </motion.div>

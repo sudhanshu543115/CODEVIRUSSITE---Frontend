@@ -262,11 +262,18 @@ const Courses = () => {
                   </span>
 
                   <div className="mt-4">
-                    <button
+                    {/* <button
                       className={`w-full py-2 px-4 bg-gradient-to-r ${category.color} text-white rounded-lg font-semibold text-sm hover:shadow-lg transition-all duration-300 transform group-hover:scale-105`}
                     >
                       {isAuthenticated ? "Explore Courses" : "Login to Access"}
                     </button>
+                    */}
+                    <Link
+  to="/contact"
+  className={`block w-full text-center py-2 px-4 bg-gradient-to-r ${category.color} text-white rounded-lg font-semibold text-sm hover:shadow-lg transition-all duration-300 transform group-hover:scale-105`}
+>
+  {isAuthenticated ? "Enquire Now" : "Enquire Now"}
+</Link>
                   </div>
                 </div>
               </div>

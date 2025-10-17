@@ -160,7 +160,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
-      */}
+      
 
       {/* Auth Modals */}
       {showLogin && (

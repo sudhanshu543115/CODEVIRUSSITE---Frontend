@@ -142,7 +142,7 @@ const Courses = () => {
         </div>
 
         {/* Login Status Banner */}
-        {!isAuthenticated && (
+        {/* {!isAuthenticated && (
           <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8 rounded-r-lg">
             <div className="flex items-center">
               <div className="ml-3">
@@ -153,6 +153,7 @@ const Courses = () => {
             </div>
           </div>
         )}
+        */}
 
         {/* Course Categories Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">

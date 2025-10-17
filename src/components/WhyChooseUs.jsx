@@ -12,20 +12,20 @@ const WhyChooseUs = () => {
   const features = [
     {
       icon: HiShieldCheck,
-      title: "Enhancing Threat Detection",
-      description: "Equipped with advanced tools and technologies, the center actively monitors networks, endpoints.",
+      title: "Expert-Led Training: ",
+      description: "Learn directly from experienced cybersecurity and web professionals who bring real-world knowledge, practical insight, and mentorship to every session.",
       color: "from-blue-500 to-blue-600"
     },
     {
       icon: HiClock,
-      title: "24/7 Threat Monitoring & Response",
-      description: "Equipped with advanced tools and technologies, the center actively monitors networks, endpoints.",
+      title: "Advanced Security Expertise",
+      description: "Stay ahead of cyber threats with up-to-date training in ethical hacking, penetration testing, and advanced defense strategies.",
       color: "from-green-500 to-green-600"
     },
     {
       icon: HiCog,
-      title: "Cybersecurity Operations Centers",
-      description: "Equipped with advanced tools and technologies, the center actively monitors networks, endpoints.",
+      title: "Customized Solutions",
+      description: "We design and secure your digital ecosystem through personalized web and security solutions aligned with your business vision and objectives.",
       color: "from-purple-500 to-purple-600"
     }
   ];
@@ -48,11 +48,12 @@ const WhyChooseUs = () => {
             WHY CHOOSE US
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 ">
-            Proactive Cybersecurity Operations
+            Empowering Innovation with Security
           </h2>
           <p className="text-xl text-white max-w-3xl mx-auto">
-            Our comprehensive approach to cybersecurity ensures your organization stays protected 
-            against evolving threats with cutting-edge technology and expert analysis.
+            At Codevirus, we blend the art of web development with the science of cybersecurity to help you thrive in the modern digital landscape. 
+            Whether you’re aiming to create a strong online presence or secure your digital assets, 
+            our expert-driven approach ensures precision, reliability, and results tailored to your unique goals.
           </p>
         </motion.div>
 

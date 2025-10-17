@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import coursesBgImage from '../assets/images/download.webp';
 import { useAuth } from '../context/AuthContext';
-import { 
+import {
+   
    CodeBracketIcon, 
   CircleStackIcon, 
   DevicePhoneMobileIcon, 
@@ -13,6 +14,20 @@ import {
   ChartBarIcon,
   ShieldCheckIcon 
 } from '@heroicons/react/24/outline';
+import {
+  ShieldCheckIcon,
+  CloudIcon,
+  LockClosedIcon,
+  BugAntIcon,
+  MagnifyingGlassIcon,
+  CpuChipIcon,
+  ClipboardDocumentCheckIcon,
+  BoltIcon,
+  CommandLineIcon,
+  AdjustmentsHorizontalIcon,
+  BuildingOffice2Icon,
+  ShieldExclamationIcon,
+} from "@heroicons/react/24/solid";
 
 const Courses = () => {
   const { isAuthenticated, enrollInCourse } = useAuth();
@@ -27,15 +42,7 @@ const Courses = () => {
       color: 'from-blue-500 to-cyan-500',
       totalCourses: 12
     },
-    {
-      id: 'data-science',
-      title: 'Data Science & AI',
-      icon: <motion.div whileHover={{ rotate: 360, transition: { duration: 0.6 } }}><ChartBarIcon className="w-12 h-12" /></motion.div>,
-      description: 'Learn data analysis, machine learning, and artificial intelligence concepts.',
-      courses: ['Python for Data Science', 'Machine Learning', 'Deep Learning', 'Data Visualization'],
-      color: 'from-purple-500 to-pink-500',
-      totalCourses: 8
-    },
+    
     {
       id: 'mobile-development',
       title: 'Mobile Development',
@@ -63,15 +70,7 @@ const Courses = () => {
       color: 'from-red-500 to-rose-500',
       totalCourses: 7
     },
-    {
-      id: 'ui-ux-design',
-      title: 'UI/UX Design',
-      icon: <motion.div whileHover={{ rotate: 360, transition: { duration: 0.6 } }}><PaintBrushIcon className="w-12 h-12" /></motion.div>,
-      description: 'Design beautiful and user-friendly interfaces with modern design principles.',
-      courses: ['Figma Mastery', 'User Research', 'Prototyping', 'Design Systems'],
-      color: 'from-indigo-500 to-purple-500',
-      totalCourses: 9
-    },
+    
     {
       id: 'database-management',
       title: 'Database Management',
@@ -81,15 +80,198 @@ const Courses = () => {
       color: 'from-teal-500 to-cyan-500',
       totalCourses: 6
     },
-    {
-      id: 'blockchain',
-      title: 'Blockchain & Web3',
-      icon: <motion.div whileHover={{ rotate: 360, transition: { duration: 0.6 } }}><CpuChipIcon className="w-12 h-12" /></motion.div>,
-      description: 'Explore blockchain technology, smart contracts, and decentralized applications.',
-      courses: ['Blockchain Basics', 'Smart Contracts', 'DApp Development', 'Cryptocurrency'],
-      color: 'from-yellow-500 to-orange-500',
-      totalCourses: 5
-    }
+     {
+      id: 'cybersecurity',
+      title: 'Cybersecurity',
+      icon: <motion.div whileHover={{ rotate: 360, transition: { duration: 0.6 } }}><ShieldCheckIcon className="w-12 h-12" /></motion.div>,
+      description: 'Learn ethical hacking, network security, and cybersecurity best practices.',
+      courses: ['Ethical Hacking', 'Network Security', 'Penetration Testing', 'Security Auditing'],
+      color: 'from-red-500 to-rose-500',
+      totalCourses: 7
+    },
+      {
+    id: "cybersecurity-mastery",
+    title: "Cybersecurity Mastery",
+    icon: (
+      <motion.div whileHover={{ rotate: 360, transition: { duration: 0.6 } }}>
+        <ShieldCheckIcon className="w-12 h-12" />
+      </motion.div>
+    ),
+    description:
+      "Build a solid foundation in modern security concepts and practices.",
+    courses: ["Ethical Hacking", "Network Security", "Risk Management", "Security Basics"],
+    color: "from-red-500 to-red-600",
+    totalCourses: 7,
+  },
+  {
+    id: "web-development-essentials",
+    title: "Web Development Essentials",
+    icon: (
+      <motion.div whileHover={{ rotate: 360, transition: { duration: 0.6 } }}>
+        <CommandLineIcon className="w-12 h-12" />
+      </motion.div>
+    ),
+    description:
+      "Learn to create secure and high-performing web applications.",
+    courses: ["HTML & CSS", "JavaScript Security", "Secure Web Apps"],
+    color: "from-pink-500 to-fuchsia-500",
+    totalCourses: 6,
+  },
+  {
+    id: "advanced-hacking-techniques",
+    title: "Advanced Hacking Techniques",
+    icon: (
+      <motion.div whileHover={{ rotate: 360, transition: { duration: 0.6 } }}>
+        <BugAntIcon className="w-12 h-12" />
+      </motion.div>
+    ),
+    description:
+      "Explore ethical hacking and penetration testing in depth.",
+    courses: ["Ethical Hacking", "Penetration Testing", "Exploit Development"],
+    color: "from-yellow-500 to-orange-500",
+    totalCourses: 8,
+  },
+  {
+    id: "cloud-security",
+    title: "Cloud Security",
+    icon: (
+      <motion.div whileHover={{ rotate: 360, transition: { duration: 0.6 } }}>
+        <CloudIcon className="w-12 h-12" />
+      </motion.div>
+    ),
+    description:
+      "Understand how to protect cloud infrastructures and services.",
+    courses: ["AWS Security", "Azure Security", "Cloud Compliance"],
+    color: "from-sky-500 to-blue-500",
+    totalCourses: 5,
+  },
+  {
+    id: "data-protection",
+    title: "Data Protection",
+    icon: (
+      <motion.div whileHover={{ rotate: 360, transition: { duration: 0.6 } }}>
+        <LockClosedIcon className="w-12 h-12" />
+      </motion.div>
+    ),
+    description:
+      "Learn encryption, privacy laws, and secure data management methods.",
+    courses: ["Encryption", "GDPR Compliance", "Data Backup & Security"],
+    color: "from-green-500 to-emerald-500",
+    totalCourses: 6,
+  },
+  {
+    id: "incident-response-training",
+    title: "Incident Response Training",
+    icon: (
+      <motion.div whileHover={{ rotate: 360, transition: { duration: 0.6 } }}>
+        <ClipboardDocumentCheckIcon className="w-12 h-12" />
+      </motion.div>
+    ),
+    description:
+      "Develop skills to identify, contain, and recover from attacks.",
+    courses: ["Threat Analysis", "Containment", "System Recovery"],
+    color: "from-indigo-500 to-purple-500",
+    totalCourses: 4,
+  },
+  {
+    id: "network-security-fundamentals",
+    title: "Network Security Fundamentals",
+    icon: (
+      <motion.div whileHover={{ rotate: 360, transition: { duration: 0.6 } }}>
+        <BoltIcon className="w-12 h-12" />
+      </motion.div>
+    ),
+    description:
+      "Strengthen your ability to secure complex network systems.",
+    courses: ["Firewalls", "IDS/IPS", "Network Protocols"],
+    color: "from-cyan-500 to-teal-500",
+    totalCourses: 5,
+  },
+  {
+    id: "security-auditing",
+    title: "Security Auditing",
+    icon: (
+      <motion.div whileHover={{ rotate: 360, transition: { duration: 0.6 } }}>
+        <AdjustmentsHorizontalIcon className="w-12 h-12" />
+      </motion.div>
+    ),
+    description:
+      "Gain expertise in compliance checks and vulnerability assessments.",
+    courses: ["Compliance", "Vulnerability Scanning", "Audit Reporting"],
+    color: "from-lime-500 to-green-500",
+    totalCourses: 4,
+  },
+  {
+    id: "malware-analysis",
+    title: "Malware Analysis",
+    icon: (
+      <motion.div whileHover={{ rotate: 360, transition: { duration: 0.6 } }}>
+        <BugAntIcon className="w-12 h-12" />
+      </motion.div>
+    ),
+    description:
+      "Analyze, detect, and mitigate malicious software effectively.",
+    courses: ["Malware Reverse Engineering", "Detection Techniques", "Prevention"],
+    color: "from-orange-500 to-red-500",
+    totalCourses: 5,
+  },
+  {
+    id: "digital-forensics",
+    title: "Digital Forensics",
+    icon: (
+      <motion.div whileHover={{ rotate: 360, transition: { duration: 0.6 } }}>
+        <MagnifyingGlassIcon className="w-12 h-12" />
+      </motion.div>
+    ),
+    description:
+      "Master techniques to investigate and trace cyber incidents.",
+    courses: ["Disk Forensics", "Memory Analysis", "Incident Investigation"],
+    color: "from-violet-500 to-indigo-500",
+    totalCourses: 5,
+  },
+  {
+    id: "penetration-testing",
+    title: "Penetration Testing",
+    icon: (
+      <motion.div whileHover={{ rotate: 360, transition: { duration: 0.6 } }}>
+        <CpuChipIcon className="w-12 h-12" />
+      </motion.div>
+    ),
+    description:
+      "Perform real-world security assessments on networks and apps.",
+    courses: ["Web App Pentesting", "Network Pentesting", "Reporting"],
+    color: "from-amber-500 to-orange-500",
+    totalCourses: 6,
+  },
+  {
+    id: "soc-training",
+    title: "Security Operations Center (SOC) Training",
+    icon: (
+      <motion.div whileHover={{ rotate: 360, transition: { duration: 0.6 } }}>
+        <BuildingOffice2Icon className="w-12 h-12" />
+      </motion.div>
+    ),
+    description:
+      "Train to monitor, analyze, and defend enterprise environments.",
+    courses: ["SIEM Tools", "SOC Analysis", "Incident Escalation"],
+    color: "from-blue-500 to-cyan-500",
+    totalCourses: 5,
+  },
+  {
+    id: "cyber-armor",
+    title: "Cyber Armor",
+    icon: (
+      <motion.div whileHover={{ rotate: 360, transition: { duration: 0.6 } }}>
+        <ShieldExclamationIcon className="w-12 h-12" />
+      </motion.div>
+    ),
+    description:
+      "Become the ultimate defender with complete end-to-end security knowledge.",
+    courses: ["Defensive Security", "Threat Intelligence", "Blue Teaming"],
+    color: "from-slate-500 to-gray-700",
+    totalCourses: 6,
+  }
+    
   ];
 
   const handleCourseClick = async (category) => {

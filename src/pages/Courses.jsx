@@ -8,11 +8,11 @@ import {
    CodeBracketIcon, 
   CircleStackIcon, 
   DevicePhoneMobileIcon, 
-  CloudIcon,
-  CpuChipIcon,
+  
+  
   PaintBrushIcon,
-  ChartBarIcon,
-  ShieldCheckIcon 
+  ChartBarIcon
+   
 } from '@heroicons/react/24/outline';
 import {
   ShieldCheckIcon,

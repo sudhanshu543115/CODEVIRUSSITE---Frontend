@@ -30,39 +30,72 @@ const Services = () => {
         setServices([
           {
             id: 1,
-            title: "Cybersecurity Operations Centers",
-            description: "A Cybersecurity Operations Center is a centralized unit that deals with monitoring, detecting, analyzing.",
+            title: "Cybersecurity Mastery",
+            description: "Build a solid foundation in modern security concepts and practices",
             icon: "shield-check"
           },
           {
             id: 2,
-            title: "Incident Response And Management",
-            description: "A Cybersecurity Operations Center is a centralized unit that deals with monitoring, detecting, analyzing.",
+            title: "Web Development Essentials",
+            description: " Learn to create secure and high-performing web applications",
             icon: "clock"
           },
           {
             id: 3,
-            title: "Incident Response Plans And Procedures",
-            description: "A Cybersecurity Operations Center is a centralized unit that deals with monitoring, detecting, analyzing.",
+            title: "Advanced Hacking Techniques",
+            description: "Explore ethical hacking and penetration testing in depth",
             icon: "document-text"
           },
           {
             id: 4,
-            title: "Integrating Threat And Intelligence",
-            description: "A Cybersecurity Operations Center is a centralized unit that deals with monitoring, detecting, analyzing.",
+            title: "Incident Response Training",
+            description: "Develop skills to identify, contain, and recover from attacks",
             icon: "chart-bar"
           },
           {
             id: 5,
-            title: "The Role Of Security Analysts In A CSOC",
-            description: "A Cybersecurity Operations Center is a centralized unit that deals with monitoring, detecting, analyzing.",
+            title: "Cloud Security",
+            description: "Understand how to protect cloud infrastructures and services",
             icon: "users"
           },
           {
             id: 6,
-            title: "Challenges In Staffing And Retaining Talent",
-            description: "A Cybersecurity Operations Center is a centralized unit that deals with monitoring, detecting, analyzing.",
-            icon: "academic-cap"
+            title: "Data Protection",
+            description: "Learn encryption, privacy laws, and secure data management methods"
+          },
+          {
+            id: 7,
+            title: "Network Security Fundamentals",
+            description: "Strengthen your ability to secure complex network systems"
+          },
+          {
+            id: 8,
+            title: "Security Auditing",
+            description: "Gain expertise in compliance checks and vulnerability assessments"
+          },{
+            id: 9,
+            title: "Malware Analysis",
+            description: "Analyze, detect, and mitigate malicious software effectively."
+          },
+          {
+            id: 10,
+            title: "Digital Forensics ",
+            description: "Master techniques to investigate and trace cyber incidents"
+          },
+          {
+            id: 11,
+            title: "Penetration Testing ",
+            description: "Perform real-world security assessments on networks and apps"
+          },
+          {
+            id: 12,
+            title: "Security Operations Center (SOC) Training ",
+            description: "Train to monitor, analyze, and defend enterprise environments."
+          },
+          {
+            id: 10,
+            title: "Cyber Armor ",
+            description: "Become the ultimate defender with complete end-to-end security knowledge"
           }
         ]);
       });
@@ -99,11 +132,10 @@ const Services = () => {
             OUR SERVICES
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Comprehensive Cybersecurity Operations Center For Enhanced Protection
+           We Deliver Excellence in Cybersecurity Services
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            We provide comprehensive cybersecurity solutions to protect your digital assets
-            and ensure business continuity in the face of evolving threats.
+           At Codevirus, we’re committed to delivering excellence through in-depth cybersecurity education and hands-on training. Our comprehensive programs are designed to help learners and professionals build strong defensive and offensive security skills — empowering them to protect, detect, and respond to real-world cyber threats effectively
           </p>
         </motion.div>
 

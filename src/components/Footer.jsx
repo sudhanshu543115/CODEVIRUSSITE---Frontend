@@ -63,21 +63,21 @@ const Footer = () => {
                 <HiLocationMarker className="w-5 h-5 text-primary-400 mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-medium text-gray-300">Address:</p>
-                  <p className="text-gray-400">Kapoorthala , Hazarthganj</p>
+                  <p className="text-gray-400">A76, Chandganj Garden Road, Kapoorthla, Aliganj, Sector A, Chandralok, Lucknow, Uttar Pradesh 226024</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <HiMail className="w-5 h-5 text-primary-400 mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-medium text-gray-300">Email:</p>
-                  <p className="text-gray-400">codevirussecurity@gmail.com</p>
+                  <p className="text-gray-400">info@codevirussec.in</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <HiPhone className="w-5 h-5 text-primary-400 mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-medium text-gray-300">Phone:</p>
-                  <p className="text-gray-400">00000000000</p>
+                  <p className="text-gray-400">+91 9026764985</p>
                 </div>
               </div>
             </div>

@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
   const features = [
     {
       icon: HiShieldCheck,
-      title: "Expert-Led Training: ",
+      title: "Expert-Led Training ",
       description: "Learn directly from experienced cybersecurity and web professionals who bring real-world knowledge, practical insight, and mentorship to every session.",
       color: "from-blue-500 to-blue-600"
     },

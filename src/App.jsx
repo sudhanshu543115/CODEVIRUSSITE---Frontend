@@ -20,6 +20,7 @@ import ProjectsPage from './pages/ProjectsPage';
 import BlogPage from './pages/BlogPage';
 
 import Courses from "../src/pages/Courses";
+import Widget from './components/Widget';
 
 // Scroll to top component
 function ScrollToTop() {
@@ -48,6 +49,8 @@ function App() {
       <Router>
         <div className="App">
           <ScrollToTop />
+          <Widget/>
+
           <Navbar />
           <Routes>
             <Route path="/" element={
